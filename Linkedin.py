@@ -6,7 +6,7 @@ import time
 
 class TestInicio(unittest.TestCase):
     def setUp(self):
-        self.driver = webdriver.Chrome('chromedriver.exe')
+        self.driver = webdriver.Chrome('src/drivers/chromedriver.exe')
 
     def test_login(self):
        driver = self.driver

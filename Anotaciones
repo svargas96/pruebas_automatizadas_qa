@@ -1,0 +1,7 @@
+Para maximizar la pantalla del webdriver usamos la linea de codigo:
+self.driver.maximize_window()
+
+Para que el webdriver haga una esperar utilizamos:
+time.sleep(10)
+
+//password[@id="frmInicioSesion"]/div[3]/div/input
