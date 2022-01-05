@@ -4,3 +4,4 @@ self.driver.maximize_window()
 Para que el webdriver haga una esperar utilizamos:
 time.sleep(10)
 
+body > ngb-modal-window > div > div > sede-usuario-modal-content > div.modal-body > div > table > tbody > tr.ng-star-inserted.marcarSede > td:nth-child(1)

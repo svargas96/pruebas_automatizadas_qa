@@ -11,12 +11,11 @@ class TestInicio(unittest.TestCase):
     def test_login(self):
         driver = self.driver
         driver.get('https://qa.nuevoerp.co/login')
-        driver.find_element_by_xpath('/html/body/app-root/app-login/div/div[4]/div/div/form/div[2]/div/input').clear()
+        driver.find_element_by_xpath("//*[@id='frmInicioSesion']/div[2]/div/input").clear()
         driver.find_element_by_xpath(
-            '/html/body/app-root/app-login/div/div[4]/div/div/form/div[2]/div/input').send_keys('crisfalt@gmail.com')
+            "//*[@id='frmInicioSesion']/div[2]/div/input").send_keys('svargasmurcia.sinergia@gmail.com')
         driver.find_element_by_name('password').clear()
-        driver.find_element_by_name('password').send_keys('crisfalt')
-
+        driver.find_element_by_name('password').send_keys('svargas')
         time.sleep(10)
 
     def tearDown(self):
